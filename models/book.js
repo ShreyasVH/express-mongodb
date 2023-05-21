@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
 
+const { CounterModel } = require('./counter');
+
 const bookSchema = new mongoose.Schema({
   _id: { type: Number },
   name: { type: String, required: true },
