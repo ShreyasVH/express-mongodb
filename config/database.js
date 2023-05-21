@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 async function connectDatabase() {
   try {
-    await mongoose.connect('mongodb://' + process.env.MONGODB_IP + ':27019/book_store', {
+    await mongoose.connect('mongodb://' + process.env.MONGODB_IP + ':' + process.env.MONGODB_PORT + '/' + process.env.MONGODB_DB, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
