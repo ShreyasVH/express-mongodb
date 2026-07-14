@@ -7,5 +7,5 @@ export MONGODB_IP=
 export MONGODB_PORT=
 export MONGODB_DB=
 
-# mongosh 2.8.3 path
+# mongosh 2.9.2 path
 export PATH=
