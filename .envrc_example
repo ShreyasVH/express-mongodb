@@ -1,4 +1,4 @@
-# node 26.7.0 path
+# node 26.8.1 path
 export PATH=
 
 export PORT=
@@ -7,5 +7,5 @@ export MONGODB_IP=
 export MONGODB_PORT=
 export MONGODB_DB=
 
-# mongosh 2.9.2 path
+# mongosh 2.10.0 path
 export PATH=
